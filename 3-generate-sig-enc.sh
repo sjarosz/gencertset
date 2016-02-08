@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# export JAVA_HOME=/usr/java
 
 #set -x	  #uncomment for debuging
 ##################################################

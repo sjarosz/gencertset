@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# export JAVA_HOME=/usr/java
-
 
 #set -x	  #uncomment for debuging
 
@@ -19,7 +17,6 @@ SubjectPrefix="/C=US/ST=VA/L=Richmond/O=Example/CN"
 
 
 [ ! -d staging  ] && mkdir staging 
-[ ! -d trusts  ] && mkdir trusts 
 
 if [ ! -d authority ]; then
 	mkdir authority
