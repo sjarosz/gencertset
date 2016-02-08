@@ -12,6 +12,8 @@
 #  or end user authentication
 ##################################################
 
+# export JAVA_HOME=/usr/java
+
 SubjectPrefix="/C=US/ST=VA/L=Richmond/O=Example/CN"
 
 rm -rf /tmp/certs

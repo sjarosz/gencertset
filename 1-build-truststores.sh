@@ -15,8 +15,10 @@
 
 SubjectPrefix="/C=US/ST=VA/L=Richmond/O=Example/CN"
 
+# export JAVA_HOME=/usr/java
 
 [ ! -d staging  ] && mkdir staging 
+[ ! -d trusts  ] && mkdir trusts 
 
 if [ ! -d authority ]; then
 	mkdir authority

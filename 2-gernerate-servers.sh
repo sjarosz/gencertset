@@ -9,6 +9,8 @@
 #  For every entry in fqdn.conf, generates keypair for SSL 
 ##################################################
 
+
+# export JAVA_HOME=/usr/java
 SubjectPrefix="/C=US/ST=VA/L=Richmond/O=Example/CN"
 
 rm -rf /tmp/certs
