@@ -39,3 +39,15 @@ truststore will be appended to rather than replaced.
 
 *note: Other than 1-BUILD-TRUSTSTORES scripts cannot be run unless an existing authority and staging are in place.
 ie. run 1-BUILD-TRUSTSTORES first unless appending with existing stores.
+
+
+OS X Notes
+===========
+For OS X the default OpenSSL configuration does not contain V3 extensions.
+sudo vi /etc/ssl/openssl.cnf
+and add the following:
+
+[ v3_ca ]
+basicConstraints = critical,CA:TRUE
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer:always
